@@ -1,0 +1,43 @@
+:root {
+    --color-background: #222222;
+    --color-background-shadow: #4a4a4a;
+    --color-background-dark: #1a1a1a;
+    --color-text: #efefef;
+    --color-icon: #E1E1E1;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #1F232A #4a4a4a;
+}
+
+#outer-frame {
+    background-color: var(--color-background) !important;
+}
+
+.RebrandHero-drawer, .arbor-grid-container.arbor-padding--xxl.arbor-padding--xxxl--medium.arbor-grid-container--relative {
+    background: var(--color-background) !important;
+}
+
+.text-input .text-input-wrapper input, .text-input .text-input-wrapper textarea {
+    background-color: var(--color-background-shadow) !important;
+}
+
+.mast-head, .RebrandNavigation-theme__default .RebrandNavigation-container, .RebrandNavigation-theme__default .RebrandNavigation-container-content {
+    background: var(--color-background-dark) !important;
+}
+
+.checkbox_label > span, .recaptcha-v2-challenge-container.recaptcha-v2-challenge-container--invisible .recaptcha-terms-text, .hr-label__text, .text-input .text-input-wrapper input, .text-input .text-input-wrapper textarea, .login-register-container .login-register-header, .login-register-switch, .signup-title, .signup-link, .RebrandHero-drawer-navigation--link, .arbor-foreground-color--panda-black, .RebrandNavigation-nav *, .signin-title, .signin-link {
+    color: var(--color-text) !important;
+}
+.dropbox-logo__type, .dropbox-logo__glyph, .DropboxLogo--wordmark, .DropboxLogo--glyph {
+    display: none;
+}
+.dropbox-logo__type {
+    width: 150px !important;
+    height: 40px !important;
+    margin-left: 50% !important;
+}
+input, select, textarea {
+  filter: none;
+}
