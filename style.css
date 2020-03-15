@@ -11,23 +11,23 @@
     scrollbar-color: #1F232A #4a4a4a;
 }
 
-#outer-frame {
+#outer-frame, .search__form .search__exit-button, .home-access-section__header, body, .maestro #page-footer, .mc-button-secondary, .help-button, .recents-item__action-button .button-secondary, .mc-modal-body, .mc-modal.extensions-scaling-modal, .unified-share-modal, .scl-sharing-modal-contacts-field, .scl-sharing-modal-footer-link-list, .scl-sharing-modal-footer-link, .scl-sharing-modal-footer-inband, .mc-util-modal-actions, .file-revisions-page__head, .rc-collapsable-section .rc-collapsable-section__header-tag, .brws-column-header .brws-checkbox-cell, .rc-collapsable-section .rc-collapsable-section__header, .selection-preview-pane, .account-page-header {
     background-color: var(--color-background) !important;
 }
 
-.RebrandHero-drawer, .arbor-grid-container.arbor-padding--xxl.arbor-padding--xxxl--medium.arbor-grid-container--relative {
+.RebrandHero-drawer, .arbor-grid-container.arbor-padding--xxl.arbor-padding--xxxl--medium.arbor-grid-container--relative, .maestro .page-header, .maestro .top-notification-bar-silo::before, .search__form, .maestro #page-content, .scl-fixed-tabbed-container__tabbed-header, .mc-table-row, .maestro .maestro-tab-nav .c-tabs__bar, .trash-restore-files-tip, .account-page .mc-tabbed-header .mc-tabbed-header-list, #page-header {
     background: var(--color-background) !important;
 }
 
-.text-input .text-input-wrapper input, .text-input .text-input-wrapper textarea {
+.text-input .text-input-wrapper input, .text-input .text-input-wrapper textarea, .mc-popover-content-item:hover, .mc-popover-content-item[data-hover], .deep-integrations-search-input, .mc-tokenized-input, .scl-sharing-modal-contacts-field__input .mc-tokenized-input-input, .mc-suggestions-list-suggestion-hover, .mc-suggestions-list-suggestion:hover, .scl-sharing-modal-message-field .scl-textarea, .scl-sharing-modal-banner--default, .scl-card__header, .search-bar__text-input, .search-bar__dropdown-item--is-highlighted, .mc-account-menu-item:hover {
     background-color: var(--color-background-shadow) !important;
 }
 
-.mast-head, .RebrandNavigation-theme__default .RebrandNavigation-container, .RebrandNavigation-theme__default .RebrandNavigation-container-content {
+.mast-head, .RebrandNavigation-theme__default .RebrandNavigation-container, .RebrandNavigation-theme__default .RebrandNavigation-container-content, .maestro-nav__container, .mc-popover-content-background, .mc-suggestions-list, .search-bar__dropdown, .search-bar__preview, .db-modal .db-modal-content, .mc-tip-card {
     background: var(--color-background-dark) !important;
 }
 
-.checkbox_label > span, .recaptcha-v2-challenge-container.recaptcha-v2-challenge-container--invisible .recaptcha-terms-text, .hr-label__text, .text-input .text-input-wrapper input, .text-input .text-input-wrapper textarea, .login-register-container .login-register-header, .login-register-switch, .signup-title, .signup-link, .RebrandHero-drawer-navigation--link, .arbor-foreground-color--panda-black, .RebrandNavigation-nav *, .signin-title, .signin-link {
+.checkbox_label > span, .recaptcha-v2-challenge-container.recaptcha-v2-challenge-container--invisible .recaptcha-terms-text, .hr-label__text, .text-input .text-input-wrapper input, .text-input .text-input-wrapper textarea, .login-register-container .login-register-header, .login-register-switch, .signup-title, .signup-link, .RebrandHero-drawer-navigation--link, .arbor-foreground-color--panda-black, .RebrandNavigation-nav *, .signin-title, .signin-link, .maestro-nav-switcher-button__label, .maestro-nav__product, .search__input, .search__input::placeholder, .search__view--empty h2, .home-access-section .section-header-trigger, .home-access-section .home-access-section__header, .mc-button-secondary, .recents-item__action-button .button-secondary, .mc-popover-content-background *, .mc-modal-body *, .recents-item__heading, .maestro .file-revisions__text--filename, .maestro .file-revisions__text--action, .maestro .file-revisions__text--description, .file-revisions-page__head__description, .search-bar__text-input, .search-bar__text-input::placeholder, .search-bar__dropdown-items *, .client-download-modal .download-modal__text, .mc-table, .rc-truncated-string__piece, .rc-collapsable-section__header-tag > span, .maestro .maestro-tab-nav .c-tabs__bar *, .mc-tip-card-description, .mc-tabbed-header-tab, .account-page-module, .account-page-block__heading, .home__suggest-items .tile-label__text, .maestro-nav-switcher-button__title {
     color: var(--color-text) !important;
 }
 .dropbox-logo__type, .dropbox-logo__glyph, .DropboxLogo--wordmark, .DropboxLogo--glyph {
@@ -40,4 +40,22 @@
 }
 input, select, textarea {
   filter: none;
+}
+.maestro-nav__product.maestro-nav__active-product {
+    color: var(--color__theme__link) !important;
+}
+.mc-tabbed-header-tab-content-selected  {
+    border-bottom: inherit !important;
+}
+.mc-tabbed-header-tab:focus {
+    box-shadow: inherit !important;
+}
+.file-revisions__row:focus {
+    outline: inherit !important;
+}
+.search-bar__input, .tokenizer-input, .tokenizer-input-disabled, .tokenizer-input-disabled textarea {
+    background: var(--color-background-shadow) !important;
+}
+.mc-icon-template-actionable--revert-folder > path:nth-child(2), .mc-icon-template-actionable--revert-folder > path:nth-child(3), .mc-icon-template-actionable--revert-folder > path:nth-child(4) {
+    fill: #222222 !important;
 }
