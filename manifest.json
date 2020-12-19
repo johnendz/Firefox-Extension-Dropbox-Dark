@@ -1,9 +1,9 @@
 {
-  "description": "Ativar tema escuro no Dropbox",
+  "description": "Tenha uma nova experiência no Dropbox | Have a new experience on Dropbox",
   "manifest_version": 2,
-  "name": "Dropbox Dark",
+  "name": "Dropbox Dark  (Tema Escuro)",
   "author": "Johnendz",
-  "version": "1.1",
+  "version": "1.2",
 
   "content_scripts": [
     {
@@ -16,10 +16,7 @@
   
   "icons": {
     "32": "icons/32.png",
-    "48": "icons/48.png",
     "64": "icons/64.png",
-    "96": "icons/96.png",
-    "128": "icons/128.png",
-    "256": "icons/256.png"
+    "128": "icons/128.png"
   }
 }

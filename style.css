@@ -19,11 +19,11 @@
     background: var(--color-background) !important;
 }
 
-.text-input .text-input-wrapper input, .text-input .text-input-wrapper textarea, .mc-popover-content-item:hover, .mc-popover-content-item[data-hover], .deep-integrations-search-input, .mc-tokenized-input, .scl-sharing-modal-contacts-field__input .mc-tokenized-input-input, .mc-suggestions-list-suggestion-hover, .mc-suggestions-list-suggestion:hover, .scl-sharing-modal-message-field .scl-textarea, .scl-sharing-modal-banner--default, .scl-card__header, .search-bar__text-input, .search-bar__dropdown-item--is-highlighted, .mc-account-menu-item:hover {
+.arbor-nav-list-item:hover:not(.arbor-nav-list-item--headline), .text-input .text-input-wrapper input, .text-input .text-input-wrapper textarea, .mc-popover-content-item:hover, .mc-popover-content-item[data-hover], .deep-integrations-search-input, .mc-tokenized-input, .scl-sharing-modal-contacts-field__input .mc-tokenized-input-input, .mc-suggestions-list-suggestion-hover, .mc-suggestions-list-suggestion:hover, .scl-sharing-modal-message-field .scl-textarea, .scl-sharing-modal-banner--default, .scl-card__header, .search-bar__text-input, .search-bar__dropdown-item--is-highlighted, .mc-account-menu-item:hover {
     background-color: var(--color-background-shadow) !important;
 }
 
-.mast-head, .RebrandNavigation-theme__default .RebrandNavigation-container, .RebrandNavigation-theme__default .RebrandNavigation-container-content, .maestro-nav__container, .mc-popover-content-background, .mc-suggestions-list, .search-bar__dropdown, .search-bar__preview, .db-modal .db-modal-content, .mc-tip-card {
+.arbor-nav__item.arbor-nav__item--menu, .arbor-nav-menu-button, .arbor-nav-menu-dropdown, .arbor-nav, .arbor-button--panda-white, .mast-head, .RebrandNavigation-theme__default .RebrandNavigation-container, .RebrandNavigation-theme__default .RebrandNavigation-container-content, .maestro-nav__container, .mc-popover-content-background, .mc-suggestions-list, .search-bar__dropdown, .search-bar__preview, .db-modal .db-modal-content, .mc-tip-card {
     background: var(--color-background-dark) !important;
 }
 
@@ -58,4 +58,10 @@ input, select, textarea {
 }
 .mc-icon-template-actionable--revert-folder > path:nth-child(2), .mc-icon-template-actionable--revert-folder > path:nth-child(3), .mc-icon-template-actionable--revert-folder > path:nth-child(4) {
     fill: #222222 !important;
+}
+.arbor-hamburger-button::after, .arbor-hamburger-button::before {
+	background-color: white !important;
+}
+.arbor-logo__dropbox-wordmark.arbor-logo__dropbox-wordmark--micro > g > g > path{
+	fill: #fff !important;
 }
